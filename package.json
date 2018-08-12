@@ -1,0 +1,16 @@
+{
+  "name": "titanium-loading-hud",
+  "version": "1.0.0",
+  "description": "A simple loading HUD that uses native UI elements to present a modal loading indicator.",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "titanium",
+    "hud",
+    "loader"
+  ],
+  "author": "Hans Knöchel",
+  "license": "MIT"
+}
