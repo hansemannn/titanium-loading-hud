@@ -16,7 +16,7 @@ export default class Loader {
 	 */
 	constructor(options = { }) {
 		this.view = options.view || new Error('Missing required "view" parameter');
-		this.title = options.title || null;
+		this.title = options.title || L('loading', 'Loading …');
 
 		if (this.isAndroid) {
 			this.activityIndicator = Ti.UI.Android.createProgressIndicator({
@@ -64,8 +64,12 @@ export default class Loader {
 	 * 
 	 * @return {Boolean} Whether or not the current process runs on Android or not.
 	 */
-	static get isAndroid() {
-		return OS_ANDROID ? true : Ti.Platform.osname === 'android';
+	get isAndroid() {
+		if (OS_ANDROID) {
+			return true;
+		}
+
+		return Ti.Platform.osname === 'android';
 	}
 
 	/**
