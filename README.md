@@ -8,9 +8,12 @@ a modal loading indicator.
 - Titanium SDK 7.1.0+
 - ES6 enabled (`<transpile>true</transpile`)
 
-## Example
+## Install
 
-Simply put the `loader.js` into `app/lib` (Alloy) or `Resources` (Classic).
+- a) Simply put the `loader.js` into `app/lib` (Alloy) or `Resources` (Classic).
+- b) Install via npm: `npm i titanium-loading-hud`
+
+## Example
 
 ```js
 import Loader from 'loader';
