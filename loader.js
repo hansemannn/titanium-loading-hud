@@ -65,10 +65,6 @@ export default class Loader {
 	 * @return {Boolean} Whether or not the current process runs on Android or not.
 	 */
 	get isAndroid() {
-		if (OS_ANDROID) {
-			return true;
-		}
-
 		return Ti.Platform.osname === 'android';
 	}
 

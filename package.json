@@ -1,6 +1,6 @@
 {
   "name": "titanium-loading-hud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple loading HUD that uses native UI elements to present a modal loading indicator.",
   "main": "loader.js",
   "scripts": {
@@ -11,6 +11,15 @@
     "hud",
     "loader"
   ],
+  "git": "https://github.com/hansemannn/titanium-loading-hud",
   "author": "Hans Knöchel",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansemannn/titanium-loading-hud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hansemannn/titanium-loading-hud/issues"
+  },
+  "homepage": "https://github.com/hansemannn/titanium-loading-hud#readme"
 }
