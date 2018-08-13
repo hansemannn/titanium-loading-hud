@@ -3,6 +3,8 @@
 A simple loading HUD that uses native UI elements to present
 a modal loading indicator.
 
+<img src="./screenshot.jpg" width="900" alt="Titanium Loading HUD-Control" />
+
 ## Requirements
 
 - Titanium SDK 7.1.0+
